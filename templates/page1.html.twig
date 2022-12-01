@@ -2,4 +2,6 @@
 
 {% block content %}
 <h1>Je suis la page 1</h1>
+{# {{include('./partials/_last_blog_particle.html.twig')}} #}
+{{ render(controller('App\\Controller\\BlogController::lastBlogPost'))}}
 {% endblock %}

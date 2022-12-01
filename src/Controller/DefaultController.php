@@ -13,20 +13,21 @@ class DefaultController extends AbstractController
     public function index()
     {
 
-        $user = [
-            'name' => "Jean",
-            'email'=> 'jean@gmail.com'
-        ];
-        // return $this->file('test.txt');
-        $product = [
-           'name' => 'Voiture Tesla',
-            'price' => 5000,
-            'lastUpdate' => strtotime('yesterday'),
-        ];
+        // $user = [
+        //     'name' => "Jean",
+        //     'email'=> 'jean@gmail.com'
+        // ];
+        // // return $this->file('test.txt');
+        // $product = [
+        //    'name' => 'Voiture Tesla',
+        //     'price' => 5000,
+        //     'lastUpdate' => strtotime('yesterday'),
+        // ];
         // return $this->render('test.html.twig',[
         //     'product' => $product,
         //     'user' => $user,
         // ]);
+   
         return $this->render('page1.html.twig');
 
         // if(true) {
